@@ -1,4 +1,5 @@
-# Boilerplate code for an ES6 package
+# Boilerplate code for an ES6 package that includes views
+This is an example of an ES6 extensions that uses html file as views and copies them to the dist folder.
 
 ### Converting existing code to an ES6 Package
 
