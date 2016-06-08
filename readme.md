@@ -1,5 +1,7 @@
 # Boilerplate code for an ES6 package
 
+This branch's package.json includes a postinstall script that will copy the files in your dist folder to the root of the package so that submodules can be imported via ```import 'your-package-name/submodule-name'```
+
 ### Creating a brand new extension
 1. Download this repo, copy the package.json and .gitignore and then edit some fields on the package.json
     * ```name```: Change to the name of your extension
