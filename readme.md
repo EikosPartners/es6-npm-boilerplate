@@ -32,8 +32,9 @@ Add the following as a dependency of your project. The name must match what is i
 {
     "name-of-your-package": "git+url-of-your-repo"
 }
+```
 
-## Testing
+### Testing
 * Run `npm run test` to run tests
   * Write tests in the `test/tests` directory
 * Run `npm run test-coverage` to see code coverage
