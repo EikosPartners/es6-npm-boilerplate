@@ -34,3 +34,12 @@ Add the following as a dependency of your project. The name must match what is i
 {
     "name-of-your-package": "git+url-of-your-repo"
 }
+
+## Testing
+* Run `npm run test` to run tests
+  * Write tests in the `test/tests` directory
+* Run `npm run test-coverage` to see code coverage
+* To see the code coverage in the browser
+  1. Navigate in the browser to the test/coverage directory
+  2. Open the generate Chrome directory
+  3. Open the `index.html` file to see the code coverage
