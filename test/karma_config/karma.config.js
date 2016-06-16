@@ -2,6 +2,9 @@
 // Generated on Tue Jun 14 2016 10:36:16 GMT-0400 (EDT)
 var webpackConfig = require('../../webpack.config');
 
+webpackConfig.entry = {};
+webpackConfig.devtool = 'inline-source-map';
+
 module.exports = function(config) {
   config.set({
 
@@ -30,8 +33,8 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
-        'test/tests/*.js': ['webpack'],
-        'src/**/*.js': ['webpack']
+        'test/tests/*.js': ['webpack', 'sourcemap'],
+        'src/**/*.js': ['webpack', 'sourcemap']
     },
 
     // test results reporter to use
@@ -77,7 +80,8 @@ module.exports = function(config) {
         require('karma-mocha'),
         require('karma-mocha-debug'),
         require('karma-chai'),
-        require('karma-chrome-launcher')
+        require('karma-chrome-launcher'),
+        require('karma-sourcemap-loader')
     ]
   })
 }
