@@ -35,7 +35,8 @@
     "karma-mocha-reporter": "^2.0.4",
     "mocha": "^2.5.3",
     "rimraf": "^2.5.2",
-    "webpack": "^1.13.1"
+    "webpack": "^1.13.1",
+    "karma-sourcemap-loader": "^0.3.7"
   },
   "dependencies": {
     "karma-webpack": "^1.7.0"
