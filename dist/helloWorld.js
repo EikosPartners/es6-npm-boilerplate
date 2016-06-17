@@ -1,10 +1,17 @@
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
+
+/**
+ * An example module.
+ * @module helloWorld
+ */
+
 exports.default = {
-    sayHello: function sayHello() {
-        console.log("Hello World");
-    }
+  sayHello: function sayHello() {
+    console.log("Hello World");
+  }
 };
+//# sourceMappingURL=helloWorld.js.map
