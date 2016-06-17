@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/helloWorld.js"],"names":[],"mappings":";;;;;;AAAA;;;;;;;kBAOe;AACX,UADW,sBACA;AAAE,YAAQ,GAAR,CAAY,aAAZ;AAA6B;AAD/B,C","file":"helloWorld.js","sourcesContent":["import './helloWorld.html';\n\n/**\n * An example module.\n * @module helloWorld\n */\n\nexport default {\n    sayHello() { console.log(\"Hello World\"); }\n}\n"]}
